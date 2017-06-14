@@ -1,0 +1,67 @@
+.wh_main{
+	width:1260px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.wh_left{
+	width: 900px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	float: left;
+}
+.why_tit{
+	border-left: 4px solid #EC5C20;
+	height: 22px;
+	line-height: 22px;
+	font-size: 20px;
+	color: #343434;
+	padding-left: 8px;
+	margin-bottom: 15px;
+}
+.wh_left form{
+	color: #343434;
+}
+.wh_left form p{
+	margin:25px 0;
+	overflow: hidden;
+	clear: both;
+}
+.txt{
+	border:1px solid #E5E5E5;
+	height: 30px;
+}
+
+.wh_left form label{
+	padding-right: 20px;
+	line-height: 30px;
+	float: left;
+}
+.wh_left form input{
+	float: left;
+	margin-right: 30px;
+}
+
+.txtarea{
+	width: 766px;
+	height: 135px;
+	border:1px solid #e5e5e5;
+}
+
+.btnBox{
+	width: 155px;
+	height: 37px;
+	background: #EC5C20;
+	border:none;
+	color: white;
+	line-height: 37px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: 50px;
+}
+
+.wh_right{
+	width: 360px;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}

@@ -1,0 +1,186 @@
+@charset "UTF-8";
+body {
+  background: #f5f5f5;
+}
+
+body .hl_main {
+  /*主体内容*/
+  width: 1290px;
+  margin: 34px auto 0;
+}
+
+body .hl_main .hl_l {
+  /*左边内容*/
+  width: 900px;
+}
+
+body .hl_main .hl_l .hl_top {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 26px 20px;
+}
+
+body .hl_main .hl_l .hl_top .hl_doc, body .hl_main .hl_l .hl_top .hl_job {
+  line-height: 30px;
+  font-size: 18px !important
+}
+
+body .hl_main .hl_l .hl_top .hl_doc p, body .hl_main .hl_l .hl_top .hl_job p {
+  color: #6a6a6a;
+}
+
+body .hl_main .hl_l .hl_top .hl_doc a, body .hl_main .hl_l .hl_top .hl_job a {
+  color: #343434;
+  padding-left: 20px;
+  padding-right: 10px;
+  background: url("../images/check.png") left center no-repeat;
+}
+
+body .hl_main .hl_l .hl_top .hl_doc a.active, body .hl_main .hl_l .hl_top .hl_job a.active {
+  background: url("../images/checked.png") left center no-repeat;
+}
+
+body .hl_main .hl_l .hl_top .hl_job {
+  padding-top: 22px;
+}
+
+body .hl_main .hl_l .hl_top .hl_job button {
+  width: 58px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 20px;
+  background: #fe4f00;
+  border: none;
+  outline: none;
+}
+
+body .hl_main .hl_l .hl_bottom {
+  border: 1px solid #e5e5e5;
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+}
+
+body .hl_main .hl_l .hl_bottom dl {
+  padding-bottom: 16px;
+}
+
+body .hl_main .hl_l .hl_bottom dl dt img {
+  width: 140px;
+}
+
+body .hl_main .hl_l .hl_bottom dl dd {
+  width: 700px;
+  margin-left: 18px;
+}
+
+body .hl_main .hl_l .hl_bottom dl dd h2 {
+  font-size: 20px;
+  line-height: 20px;
+  height: 20px;
+  width: 100%;
+  color: #343434;
+}
+
+body .hl_main .hl_l .hl_bottom dl dd h2 img {
+  width:20px;
+  margin-left: 20px;
+  display: inline;
+  vertical-align: bottom;
+}
+
+body .hl_main .hl_l .hl_bottom dl dd p.clearfix {
+  line-height: 42px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+body .hl_main .hl_l .hl_bottom dl dd p.clearfix span.float_l {
+  color: #6a6a6a;
+  font-size: 20px;
+}
+
+body .hl_main .hl_l .hl_bottom dl dd p.clearfix span.float_l em {
+  color: #ffa42f;
+}
+
+body .hl_main .hl_l .hl_bottom dl dd p.clearfix span.float_r {
+  color: #343434;
+  font-size: 16px;
+}
+
+body .hl_main .hl_l .hl_page span select{
+  width: 40px;
+  outline: none;
+  height: 22px;
+  margin:0 5px;
+  vertical-align: text-top;
+}
+
+body .hl_main .hl_l .hl_bottom dl dd p.hl_news {
+  line-height: 24px;
+  color: #aeaeae;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+body .hl_main .hl_l .hl_bottom dl+dl {
+  padding-top: 40px;
+}
+
+body .hl_main .hl_l .hl_page {
+  width: 550px;
+  font-size: 20px;
+  color: #343434;
+  margin-top: 34px;
+  margin-bottom: 86px;
+}
+
+body .hl_main .hl_l .hl_page span+span {
+  padding-left: 10px;
+}
+
+body .hl_main .hl_l .hl_page span.clearfix {
+  float: right;
+}
+
+body .hl_main .hl_l .hl_page span.clearfix i {
+  float: left;
+  width: 32px;
+  height: 23px;
+  border: 1px solid #CCCCCC;
+}
+
+body .hl_main .hl_r {
+  /*右边内容*/
+  width: 350px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  color: #343434;
+}
+
+body .hl_main .hl_r h2 {
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 22px;
+  padding-left: 20px;
+  height: 66px;
+  line-height: 66px;
+}
+
+body .hl_main .hl_r ul {
+  padding: 10px 20px 20px;
+  width: 290px;
+  font-size: 18px;
+}
+
+body .hl_main .hl_r ul li {
+  padding-left: 26px;
+  line-height: 32px;
+  background: url("../images/ty.png") left 14px no-repeat;
+}
+
+body .hl_main .hl_r ul li:first-child {
+  text-indent: -6px;
+}
+
+
+/*# sourceMappingURL=homeLibrary.css.map */

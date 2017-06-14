@@ -1,0 +1,147 @@
+body{
+	background: #f5f5f5;
+}
+.main-content {
+		width: 1290px;
+		margin: 0 auto;
+		padding-top:18px;
+}
+
+.main-content .banner {
+		width: 1290px;
+		height: 450px;
+		overflow: hidden;
+		border: 1px solid #ccc;
+}
+
+.main-content .banner .swiper-slide {
+		width: 100%;
+}
+
+.main-content .banner .swiper-slide img {
+		width: 100%;
+}
+
+.main-content .banner .swiper-pagination {
+		width: 100%;
+		box-sizing: border-box;
+		text-align: right;
+		padding-right: 36px;
+}
+
+.main-content .banner .swiper-pagination .swiper-pagination-bullet {
+		width: 12px;
+		height: 12px;
+		margin-left: 12px;
+		background: #fff;
+		opacity: 0.5;
+}
+
+.main-content .banner .swiper-pagination .swiper-pagination-bullet-active {
+		transform: scale(1.3);
+		background: #ec5c20;
+		opacity: 1;
+}
+
+.main-content .content {
+		padding-bottom: 86px;
+}
+
+.main-content .content .title {
+		width: 1920px;
+		margin: 0 auto;
+		font-size: 24px;
+		color: #333333;
+		letter-spacing: 0;
+		line-height: 24px;
+		text-align: left;
+		border-left: 4px solid #ec5c20;
+		padding-left: 11px;
+		margin-top: 40px;
+		margin-bottom: 19px;
+}
+
+.main-content .content ul {
+		width: 100%;
+}
+
+.main-content .content ul li {
+		float: left;
+		width: 366px;
+		margin-right: 96px;
+		margin-bottom: 38px;
+}
+
+.main-content .content ul li:nth-child(3n) {
+		margin-right: 0;
+}
+
+.main-content .content ul li img {
+		width: 100%;
+		margin-bottom: 19px;
+}
+
+.main-content .content ul li h2 {
+		width: 100%;
+		font-size: 24px;
+		font-weight: inherit;
+		color: #000000;
+		letter-spacing: 0.29px;
+		text-align: left;
+		margin-bottom: 8px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+}
+
+.main-content .content ul li i {
+		width: 100%;
+		font-size: 16px;
+		color: #aeaeae;
+		letter-spacing: 0.19px;
+		text-align: left;
+}
+
+.main-content .content .page {
+		margin: 8px auto;
+		text-align: center;
+}
+
+.main-content .content .page span {
+		display: inline-block;
+		vertical-align: bottom;
+		border-radius: 4px;
+		width: 24px;
+		height: 24px;
+		text-align: center;
+		line-height: 24px;
+		font-size: 14px;
+		margin-right: 6px;
+}
+
+.main-content .content .page span.active {
+		color: #fff;
+		background: #ec5c20;
+}
+
+.main-content .content .page a {
+		display: inline-block;
+		border: 1px solid #d1d1d1;
+		vertical-align: bottom;
+		border-radius: 4px;
+		width: 22px;
+		height: 22px;
+		line-height: 22px;
+		font-size: 14px;
+		color: #6a6a6a;
+		margin-right: 6px;
+}
+
+.main-content .content .page a.active {
+		color: #fff;
+		background: #ec5c20;
+}
+
+.main-content .content .page a.next, .main-content .content .page a.prev {
+		width: 62px;
+}

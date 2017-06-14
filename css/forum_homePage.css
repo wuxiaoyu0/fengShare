@@ -1,0 +1,138 @@
+body{font-family:"微软雅黑";background: #f5f5f5;}
+.headerbg,.index_ad{background: #fff;
+}
+.index_ad{height:66px;border: 1px solid #e5e5e5;margin-top: 20px;}
+.index_ad .forum_nav{width:660px;margin-left: 34px;float: left;}
+.index_ad .forum_nav li{width:330px;line-height:36px;list-style: square;list-style-position:outside;float:left;}
+.active{color:#ff7435;}
+.forum_nav_sel{width:203px;height:40px;margin-right:20px;color:#343434;font-size:16px;font-weight: bold;}
+.forum_nav_keyword{width:203px;height:40px;}
+.forum_nav_search{
+	width:74px;height:40px;background: #f5f5f5;border:1px solid #e5e5e5;font-size:16px;font-weight: bold;
+}
+.index_ad_form{float: left;line-height: 77px;font-weight: bold;}
+/*论坛状态信息*/
+.forum_state_inf,.forum_inf,.forum_informa,.forum_dynamic{width: 1290px;
+    margin: 0 auto;
+    font-size:20px;
+    color:#343434;
+}
+.forum_state_inf{ height:39px;
+    line-height: 39px;font-size:16px;}
+.forum_state_inf span{color:#afafaf;}
+.forum_state_inf .forum_state_inf_img{
+	width:21px;height:20px;
+	display: inline-block;
+	vertical-align: sub;
+	background: url(../images/forum_state_inf.jpg) no-repeat center center;
+}
+.forum_state_inf .forum_state_inf_title{
+	color:#afafaf;margin-left: 5px;
+}
+.forum_state_inf .forum_state_inf_res{
+	color:#000;margin-right: 5px;
+}
+.forum_inf{
+	height:316px;
+	border: 1px solid #e5e5e5;
+}
+.forum_informa{
+	width:1282px;
+	font-size: 24px;
+	padding-left: 8px;
+	height:48px;line-height:48px;background: #f5f5f5;
+	border-bottom: 1px solid #e5e5e5;
+}
+.forum_informa span:nth-of-type(2){
+	width:9px;height:10px;
+	float:right;margin:18px 12px 0 0;background: url(../images/arrow.png) no-repeat;
+}
+.forum_inf_title{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	color:#fe4f00;
+	font-size:20px;
+	font-weight: bold;
+	border-bottom:1px solid #e5e5e5;
+    box-sizing: border-box;
+	background: #fff;
+}
+.forum_inf_title p{
+	width:429px;
+	text-align:center;
+	float: left;
+}
+.forum_inf_content{
+	width:1290px;
+}
+.forum_inf_content ul{
+	width:419px;
+	float:left;
+	background: #fff;
+	border-left: 1px solid #e5e5e5;
+	padding:10px 0 0 10px;
+	color:#314861;
+	font-size:16px;
+}
+.forum_inf_content ul:nth-of-type(1){
+	border-left:0;
+}
+.forum_inf_content ul .forum_inf_num1{
+	color:#343434;
+}
+.forum_inf_content ul .forum_inf_num2{
+	color:#6a6a6a;
+}
+.forum_inf_content ul>li{
+	line-height:26px;
+}
+.forum_inf1{
+	height:206px;
+	margin-top:20px;
+}
+.forum_prodc{
+	background: #fff;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.forum_prodc li{
+	width:25%;
+	float:left;
+}
+.forum_prodc li>img{
+	padding:18px 18px;
+	float: left;
+}
+.forum_prodc_con{
+	float:left;
+	padding-top:18px;
+}
+.forum_prodc_con_tit{
+	font-size:20px;
+	color:#343434;
+}
+.forum_prodc_con_tit>span{
+	color:#fe4f00;
+}
+.forum_prodc_con_tit1{
+	font-size:16px;
+	color:#aeaeae;
+}
+.forum_prodc_con1{
+	font-size:16px;
+	color:#6a6a6a;
+}
+.forum_inf2{
+	height: 362px;
+}
+.forum_dynamic{
+	margin:20px auto;
+	line-height:60px;
+	background: #fff;
+	border:1px solid #e5e5e5;
+	box-sizing:border-box;
+	font-size:16px;
+	color:#343434;
+	padding-left:18px;
+}

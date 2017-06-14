@@ -1,0 +1,151 @@
+/*
+* @Author: Marte
+* @Date:   2017-06-03 16:38:57
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-03 19:28:28
+*/
+body{
+  background: #fff;
+}
+
+.forum_body{
+    width:1290px;
+    margin:0 auto;
+    background: #fff;
+    font-size: 16px;
+}
+.forum_list_title{
+    padding-left: 16px;
+    line-height:38px;
+}
+.forum_per_tit{
+    line-height:38px;
+    background: #eeeeee;
+    padding-left:27px;
+    border:1px solid #e5e5e5;
+}
+.post_content{
+    border:1px solid #e5e5e5;
+    border-top: none;
+}
+.post_content_con{
+    // width:1275px;
+    margin-left:15px;
+    border-left:1px solid #e5e5e5;
+    overflow:hidden;
+
+}
+.posts_author_infor{
+    width:231px;
+    float:left;
+    padding: 17px 0 0 12px;
+}
+.post_article{
+    width:1004px;
+    min-height: 404px;
+    border-left:1px solid #e5e5e5;
+    line-height:37px;
+    padding-left:23px;
+    float:left;
+    position: relative;
+
+}
+.forum_article{
+    width:708px;
+}
+.post_article .ova_right{
+    float:right;
+    padding-right:10px;
+}
+.avatar{
+    margin:10px 0 10px ;
+    width: 106px;
+}
+.star{
+    margin-bottom: 16px;
+}
+.posts_author_infor a{
+    color:#000;
+}
+.only_view_author{
+    float:right;
+}
+.post_article_list{
+    font-size:14px;
+}
+.post_article_title{
+    font-size:20px;
+    line-height:50px;
+}
+.download{
+    background: #f7f7f7;
+    line-height:60px;
+    border:1px solid #898989;
+    width:508px;padding-left:30px;
+    font-weight: bold;margin:56px 0;
+
+}
+.forum_res{
+    line-height:105px;
+}
+.ova_bottom{
+    position: absolute;
+    bottom:10px;
+    right:10px;
+}
+.ova_bottom>p{
+    text-align: center;
+
+}
+.content1{
+    margin-top:14px;
+    border-top:1px solid #e5e5e5;
+}
+
+.forum_body .page {
+		margin: 26px auto 32px;
+		text-align: center;
+}
+
+.forum_body .page span {
+		display: inline-block;
+		vertical-align: bottom;
+		border-radius: 4px;
+		width: 24px;
+		height: 24px;
+		text-align: center;
+		line-height: 24px;
+		font-size: 14px;
+		margin-right: 6px;
+}
+
+.forum_body .page span.active {
+		color: #fff;
+		background: #ec5c20;
+}
+
+.forum_body .page a {
+		display: inline-block;
+		border: 1px solid #d1d1d1;
+		vertical-align: bottom;
+		border-radius: 4px;
+		width: 22px;
+		height: 22px;
+		line-height: 22px;
+		font-size: 14px;
+		color: #fe5103;
+		margin-right: 6px;
+		text-align: center;
+}
+
+.forum_body .page a.active {
+		color: #fff;
+		background: #ec5c20;
+}
+
+.forum_body .page a.next, .forum_body .page a.prev {
+		width: 62px;
+}
+.forum_body .page a.total-pagenum {
+		width: 62px;
+}

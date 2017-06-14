@@ -1,0 +1,73 @@
+body{
+	font-family: "微软雅黑",Arial;
+}
+.wh_main{
+	width: 100%;
+	padding:30px 0 180px;
+	background: #F5F5F5;
+}
+.wh_survey{
+	width: 1260px;
+	height: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wh_left{
+	width: 900px;
+	height: 1000px;
+	float: left;
+}
+.wh_tit{
+	font-weight: bolder;
+}
+.wh_content{
+	padding-top: 40px;
+}
+.wh_content h3{
+	color: #375885;
+	font-weight: bolder;
+}
+.wh_content p{
+	padding-left: 28px;
+	padding-right: 100px;
+	color: #343434;
+	line-height: 33px;
+	margin: 10px 0;
+}
+.tjBtn{
+	width: 192px;
+	height: 44px;
+	border:none;
+	background: #1160B2;
+	color: white;
+	line-height: 44px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.look{
+	text-decoration: underline;
+	color: #343434;
+}
+.wh_right{
+	width: 360px;
+	height: 1000px;
+	float: left;
+}
+.wh_news a{
+	display: block;
+	width: 100%;
+	line-height: 34px;
+	color: #343434;
+}
+.txtarea{
+	width: 700px;
+	height: 100px;
+	border:1px solid #E5E5E5;
+}
+.wh_tit a{
+	font-size: 18px;
+	color: #6A6A6A;
+}
+.wh_tit a strong{
+	color: #F7827C;
+}

@@ -1,0 +1,149 @@
+/*下载主页banner*/
+
+.dindex_content{
+	width: 1290px;
+	margin: 0 auto;
+}
+body{
+	background:#fff;
+}
+
+/*下载页面主体*/
+.dindex_content{
+	padding: 35px 0 90px 0px;
+}
+.dindex_content .dindex_content_l{
+	width: 845px;
+	overflow: hidden;
+}
+
+.dindex_content .dindex_content_r{
+	width: 310px;
+}
+/*下载排行*/
+.download_rangking ul{
+	padding-top: 20px;
+}
+.download_rangking .bgff0{
+	background: #ff0000;
+}
+.download_rangking .bgef4{
+	background: #ef4e38;
+}
+.download_rangking .bgff6{
+	background: #ff6c00;
+}
+.download_rangking .bga0a{
+	background: #a0a0a0;
+}
+.download_rangking ul li span{
+	padding: 0px 5px;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 4px;
+	margin-right: 20px;
+
+}
+.download_rangking ul li{
+	padding: 15px 0;
+	border-bottom: 1px dashed #e5e5e5;
+
+}
+.download_rangking ul li a{
+	font-size: 14px;
+	color: #333333;
+	}
+
+.downr_list img{
+	height:50px;
+}
+.download_rangking ul li .downr_list p{
+	padding: 0 10px 0 12px;
+	line-height: 25px;
+}
+.download_rangking ul li .downr_list p span,.download_rangking ul li  .downr_list p strong{
+	display: block;
+	font-size: 14px;
+	color: #333333;
+}
+.download_rangking ul li  .downr_list p strong{
+	color: #a0a0a0;
+}
+.download_rangking ul li  .downr_list a{
+	background: #00ac35;
+	text-align: center;
+	line-height: 22px;
+	font-size: 14px;
+	color: #FFFFFF;
+	display: block;
+	padding: 5px 10px;
+	border-radius: 6px;
+	margin-top: 20px;
+}
+/*猜你喜欢*/
+.download_like{
+	margin-top: 40px;
+}
+.download_like ul li .downr_list p{
+	line-height: 50px;
+}
+/*左边媒体助手*/
+.dindex_content .dindex_content_l_t h3{
+	font-size: 24px;
+	color: #343434;
+	line-height: 45px;
+	font-weight: inherit;
+}
+.dindex_content .dindex_content_l h3 span{
+	font-size: 16px;
+	background: url(../images/down_de_r.png) no-repeat left center;
+	padding-left: 20px;
+	margin-left: 30px;
+	line-height: 45px;
+}
+.dindex_content_text{
+	padding: 20px 0;
+}
+.dindex_content_text .float_l{
+	width: 315px;
+}
+.dindex_content_text .float_r{
+	width: 530px;
+}
+.dindex_content_text .float_l img{
+	margin: 0 auto;
+}
+.dindex_content_text .float_r{
+	line-height: 30px;
+	color: #343434;
+	font-size: 14px;
+
+}
+.dindex_content_text .float_r .dict_title{
+	font-size: 16px;
+}
+.dindex_content_text .float_r .dict_btn{
+	width: 145px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	background:url(../images/down_de_ne.png) no-repeat 15px center #f8443b;
+	border-radius: 4px;
+	margin-top: 45px;
+	padding-left: 15px;
+}
+.dindex_content_text .float_r .dict_btn a{
+	font-size: 20px;
+	color: #FFFFFF;
+	display: block;
+}
+.dindex_content_l_b h3{
+	margin:10px 0;
+}
+.dindex_content_l_b .dicbtext{
+	padding-top: 15px;
+	font-size: 14px;
+	color: #333333;
+	line-height: 30px;
+}

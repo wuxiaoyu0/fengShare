@@ -1,0 +1,140 @@
+body{
+	background: #f5f5f5;
+}
+.nd_text_title{
+	width:1290px;
+	margin:0 auto;
+	padding-top: 25px;
+	border-bottom: 1px solid #f3f3f3;
+}
+.related{
+	font-size:14px;
+	color:#aeaeae;
+	padding: 0 10px 6px 10px;
+	line-height: 44px;
+}
+.related img{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 5px;
+}
+.related .float_r span{
+	padding-left: 10px;
+}
+.banner-box{
+		width:1290px;
+		margin:0 auto;
+		position: relative;
+}
+.banner{
+	width:1290px;
+	margin:39px auto 58px;
+	position: relative;
+}
+.banner>.swiperBigpic{
+	width:980px;
+	margin:0 auto;
+}
+.swiperBigpic .swiper-wrapper{
+	width:980px;
+	margin:0 auto;
+}
+.swiperBigpic .swiper-wrapper .swiper-slide{
+	width:100%!important;
+	margin:0 auto;
+}
+.swiperBigpic .swiper-wrapper  .swiper-slide img{
+	width:100%;
+	margin:0 auto;
+}
+.swiper-pagination{
+	width:1000px;
+	margin:49px auto 58px;
+	position: static;
+	overflow: hidden;
+}
+.swiper-pagination div{
+	width:921px;
+	overflow: hidden;
+	position: relative;
+}
+.swiper-pagination div ul{
+	width:2574px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.swiper-pagination li{
+	float: left;
+	width:216px!important;
+	overflow: hidden;
+	margin-right: 18px;
+	box-sizing: border-box;
+}
+
+.swiper-pagination li.active img{
+	opacity: 0.8;
+	transform: scale(0.9);
+}
+
+.swiper-pagination li img{
+	width:100%;
+	transform: scale(1);
+	transition: .2s;
+}
+.swiper-pagination .pageleftbtn,.swiper-pagination .pagerightbtn{
+	width:39px;
+	text-align: center;
+}
+.swiper-pagination .pageleftbtn span{
+	display: inline-block;
+	width:24px;
+	height:40px;
+	background:url(../images/leftbtn.png) no-repeat center center;
+	background-size:cover;
+	vertical-align: middle;
+}
+.swiper-pagination .pagerightbtn span{
+	display: inline-block;
+	width:24px;
+	height:40px;
+	background:url(../images/rightbtn.png) no-repeat center center;
+	background-size:cover;
+	vertical-align: middle;
+}
+.swiper-button-next{
+	width:34px;
+	height:58px;
+	background:url(../images/rightbtn.png) no-repeat center center;
+	top:35%;
+	right:80px;
+}
+.swiper-button-prev{width:34px;
+	height:58px;
+	background:url(../images/leftbtn.png) no-repeat center center;
+	top:35%;
+	left:80px;
+}
+.prev-imgs{
+	position:absolute;
+	width:118px;
+	left:0;
+	bottom:0;
+}
+.prev-imgs img,.next-imgs img{
+	box-sizing: border-box;
+	width:100%;
+	margin-bottom:5px;
+	border:4px solid #d3d9dd;
+}
+.prev-imgs p,.next-imgs p{
+	width:100%;
+	font-size: 14px;
+	color:#6a6a6a;
+}
+.next-imgs{
+	position:absolute;
+	width:118px;
+	right:0;
+	bottom:0;
+}
